@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": " http://172.19.43.200",
+           // "server": "http://navbc365onprem:7049", 
+            "serverInstance": "BC",
+            "authentication":"UserPassword",
+            "startupObjectId": 50101,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "port": 7049,
+            "schemaUpdateMode": "Recreate"
+        }
+    ]
+}
