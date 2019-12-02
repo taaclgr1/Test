@@ -16,7 +16,7 @@ table 50100 "Greg book"
             DataClassification = ToBeClassified;
             trigger OnValidate();
             begin
-                message('trigger sur le champs description')
+                message('trigger sur le champs descriptions')
             end;
         }
 
